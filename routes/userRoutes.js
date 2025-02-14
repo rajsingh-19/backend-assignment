@@ -6,6 +6,6 @@ const { registerHandler, loginHandler, infoHandler } = require("../controller/us
 //      register route
 router.post('/login', loginHandler);
 router.post('/register', registerHandler);
-router.get('/info/:email', verifyUser, infoHandler);
+router.post('/info', verifyUser, infoHandler);
 
 module.exports = router;

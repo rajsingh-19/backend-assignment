@@ -44,7 +44,7 @@ const loginHandler = async (req, res) => {
 
 //          user info handler
 const infoHandler = async (req, res) => {
-    const { email } = req.params;
+    const { email } = req.body;
 
     if (!email) {
         return res.status(400).json({ message: "User ID is missing or invalid" });
