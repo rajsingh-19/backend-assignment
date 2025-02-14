@@ -3,9 +3,9 @@
 ## Overview
 This is a simple user authentication backend built using Express.js, MongoDB, and JWT. It allows users to:
     
-(1) Register an account.
-(2) Login and receive a JWT token.
-(3) Search for a user by username or email (requires authentication).
+    (1) Register an account.
+    (2) Login and receive a JWT token.
+    (3) Search for a user by username or email (requires authentication).
     
 ### Tech Stack
     Backend: Node.js, Express.js
